@@ -1,0 +1,128 @@
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+h1{
+   font-size:50px;
+   color: aliceblue;
+}
+span{
+    color: yellow;
+}
+h4{
+    color: aliceblue;
+    margin-left: 180px;
+    color: black;
+}
+button#join{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.card{
+    margin-top: 200px;
+    margin-left: 700px;
+
+}
+.card-header{
+    font-size: 50px;
+    color: rgb(79, 199, 255);
+    border-color: rgb(0, 162, 255);
+}
+label{
+    font-size: 30px;
+}
+button#transfer{
+    color: black;
+    font-weight: 500;
+}
+#navbarSupportedContent {
+    margin-left: 800px;
+    font-weight: 600;   
+ 
+}
+#navbarSupportedContent1{
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+#home{
+    color: orange;
+}
+
+#vs{
+    color: rgb(64, 201, 255);
+}
+#tf{
+    color: rgb(204, 204, 204);
+}
+#all{
+    color: orangered;
+    
+}
+
+/* Responsive Media Query */
+@media screen and (max-width: 1440px) {
+    #navbarSupportedContent {
+        margin-left: 400px;
+        font-weight: 600;   
+     
+    }
+    #navbarSupportedContent1{
+        margin-left: 20px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .card{
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+    .alltran{
+        margin-left: -250px;
+    }
+    .cus{
+        margin-left: -250px;
+    }
+  
+   
+}
+
+/* Responsive Media Query */
+@media screen and (max-width: 1217px) {
+    #navbarSupportedContent {
+        margin-left: 200px;
+        font-weight: 600;   
+     
+    }
+    #navbarSupportedContent1{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .card{
+        margin-top: 200px;
+        margin-left: 400px;
+    }
+    .alltran{
+        margin-left: -300px;
+    }
+    .cus{
+        margin-left: -300px;
+    }
+    
+}
+
+
+
